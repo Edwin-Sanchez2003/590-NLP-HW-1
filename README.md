@@ -22,6 +22,9 @@ The code in this repo is used to complete Problem 5 of Homework 1 for 590 Natura
 * **Perform Text Analysis On Message Data:** `python analysis.py -i ./data.txt`
 
 ## Citations
+bibliography:
+    - bibliography.bib
+
 nocite: "[@*]"
 references:
 - author:
