@@ -12,7 +12,7 @@
 
 # Packages
 import json # read json files
-import argparse
+import argparse # parse arguments passed to the file
 
 # description for argparse
 descr = """

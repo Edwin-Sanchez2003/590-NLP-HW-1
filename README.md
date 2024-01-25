@@ -18,4 +18,30 @@ The code in this repo is used to complete Problem 5 of Homework 1 for 590 Natura
 
 
 ## Useful Commands
-* **Extract messages from Original Data:** `python data_generator.py -i ./original_data/test.jsonl -o ./data.txt`
+* **Extract Messages From Original Data:** `python data_generator.py -i ./original_data/train.jsonl -o ./data.txt`
+* **Perform Text Analysis On Message Data:** `python analysis.py -i ./data.txt`
+
+## Citations
+nocite: "[@*]"
+references:
+- author:
+  - family: Peskov
+    given: Denis
+  - family: Cheng
+    given: Benny
+  - family: Elgohary
+    given: Ahmed
+  - family: Barrow
+    given: Joe
+  - family: Danescu-Niculescu-Mizil
+    given: Cristian
+  - family: Boyd-Graber
+    given: Jordan
+  container-title: Association for computational linguistics
+  id: "Peskov:Cheng:Elgohary:Barrow:Danescu-Niculescu-Mizil:Boyd-Graber-2020"
+  issued: 2020
+  publisher-place: Seattle
+  title: "It takes two to lie: One to lie and one to listen"
+  title-short: It takes two to lie
+  type: paper-conference
+---
