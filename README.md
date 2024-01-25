@@ -21,6 +21,9 @@ The code in this repo is used to complete Problem 5 of Homework 1 for 590 Natura
 * **Extract Messages From Original Data:** `python data_generator.py -i ./original_data/train.jsonl -o ./data.txt`
 * **Perform Text Analysis On Message Data:** `python analysis.py -i ./data.txt`
 
+## Packages
+* **Natural Language Toolkit (NLTK):** https://www.nltk.org/install.html
+
 ## Citations
 [1](https://sites.google.com/view/qanta/projects/diplomacy) 
 Denis Peskov, undefined., et al, "It Takes Two to Lie: One to Lie and One to Listen," in Association for Computational Linguistics, 2020.
