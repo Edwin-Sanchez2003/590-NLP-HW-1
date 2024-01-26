@@ -33,7 +33,7 @@ parser = argparse.ArgumentParser(
 
 # path to file to be extracted
 parser.add_argument('-i', '--input_file_path', help="The path to the file you want to read message data from.")
-parser.add_argument('-f', '--num_freqs', default=0, help="The cutoff point for word frequencies (ie. the first 1000 word frequencies) to be plotted. If 0, no limit will be set.")
+parser.add_argument('-w', '--words_to_display', default=0, help="The number of word frequencies (ie. the first 1000 word frequencies) to be plotted on the graph. If 0, no limit will be set.")
 
 # parse args
 args = parser.parse_args()
@@ -106,10 +106,10 @@ def main():
     plt.rcParams["figure.autolayout"] = True
 
     num_freqs = 0
-    if int(args.num_freqs) == 0:
+    if int(args.words_to_display) == 0:
         num_freqs = num_words
     else:
-        num_freqs = int(args.num_freqs)
+        num_freqs = int(args.words_to_display)
 
     plot_data = {
         "data": norm_freqs[:num_freqs],
