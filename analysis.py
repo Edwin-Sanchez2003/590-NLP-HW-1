@@ -91,7 +91,7 @@ def main():
     # re-organize the data to be lists of names & lists of values
     data = freq_dist.most_common()
     norm_freqs:list[float] = []
-    num_words = len(tokens_nltk_lower)
+    num_words = len(data)
     
     norm_freqs:list[float] = []
     for word, _ in data:
